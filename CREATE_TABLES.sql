@@ -33,18 +33,6 @@ CREATE TABLE port.operations (
 );
 
 
-/*
-CREATE TABLE port.operations(
-	operation_id INT IDENTITY PRIMARY KEY,
-	vessel_id INT FOREIGN KEY REFERENCES port.vessels(vessel_id)
-	berth_id INT FOREIGN KEY REFERENCES port.berths(berth_id)
-	operation_type VARCHAR(100),
-	operation_date DATETIME,
-	cargo_tons DECIMAL(10, 2)
-);
-
-*/
-
 -- 4. EMPLOYEE TABLE (hr schema)
 -- supervisor_id references employee_id in the SAME table
 -- This enables self join
