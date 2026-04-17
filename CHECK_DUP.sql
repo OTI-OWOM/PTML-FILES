@@ -18,7 +18,7 @@ HAVING
 
 
 
-*/
+
 -- METHOD 2: see full duplicate rows using ROW_NUMBER() 
 WITH cte AS (
 	SELECT *,
@@ -44,8 +44,8 @@ WITH cte AS (
 	FROM port.vessel_arrivals
 )
 DELETE FROM cte WHERE row_num > 1;
-*/
 
 
 
-*/
+
+
