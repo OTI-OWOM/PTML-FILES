@@ -13,12 +13,6 @@ HAVING
 	COUNT(*) > 1;
 
 
-
-
-
-
-
-
 -- METHOD 2: see full duplicate rows using ROW_NUMBER() 
 WITH cte AS (
 	SELECT *,
